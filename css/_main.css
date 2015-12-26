@@ -10,6 +10,15 @@ body	{
 	margin:0 auto;
 	}
 
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}	
+
 /*OVERALL WRAPPER*/
 
 .wrapper {
@@ -23,18 +32,15 @@ body	{
 
 /*HEADER*/
 
-.header-element 
-		{
+.header-element 		{
+	margin-bottom:-70px;
+	position: relative;
+	top: 12px;
+	left: 15px;
+	right: 0;
+}
 
-		margin-bottom:-70px;
 
-		position: relative;
-			top: 12px;
-			left: 15px;
-			right: 0;
-			}
-
-		}
 
 
 
@@ -47,7 +53,7 @@ a:hover 	{
 
 a:link   	{
 		color: #000000;
-   		}
+		}
 
 a:visited  	{
 		color: #A39E9E;
@@ -56,40 +62,60 @@ a:visited  	{
 /*NAVIGATION BEHAVIOUR*/
 
 
+.site-logo {
+	float: left;
+}
+
 /*NAVIGATION STYLE*/
+.menu-wrapper {
+	margin-top: 20px;
+	float: right;
+	text-align:right;	
+}
 
+	.menu-site-navigation {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
 
-.menu
-
-		{  
- 		font-size:17px;
-		color:A39E9E;
-		margin-bottom:10px;
-		margin-top:18px;
-		margin-right:0px;
-		padding:20px;
-		text-align:right;
+		.menu-item {
+			display: inline-block;
 		}
 
-.menu-item 	{  
- 
-			display:inline;
-			text-align:right;
-			padding-right:2px;
+			.menu-link {
+				color: #A39E9E;
+				font-size:17px;
+				display:inline;
+				padding-right:20px;				
+			}
 
-		}
+
+/*.menu {  
+	font-size:17px;
+	color: #A39E9E;
+	margin-bottom:10px;
+	margin-top:18px;
+	margin-right:0px;
+	padding:20px;
+	text-align:right;
+}
+
+.menu-item 	{   
+	display:inline;
+	text-align:right;
+	padding-right:2px;
+}
 
 .menu-item a	{
-			display:inline;
-			padding-right:20px;
-		}
+	display:inline;
+	padding-right:20px;
+}*/
 
 /*NAVIGATION STYLE*/
-
 
 
 /*FEATURE IMAGE*/
-
 .featureimage 		{
 			background:#CECECE;
 
@@ -231,19 +257,19 @@ a:visited  	{
 			
 .float 
 			{
- 			float: left;
- 			padding-left:10px;
+			float: left;
+			padding-left:10px;
 			padding-right:28px;
 			padding-bottom:25px;
 			padding-top:10px;
- 			border-color:#A39E9E;
+			border-color:#A39E9E;
 
- 			}
+			}
 
 div.float p 		{
- 			text-align: left;
- 			font-size: 12px;
- 			color:#A39E9E;
+			text-align: left;
+			font-size: 12px;
+			color:#A39E9E;
 	
 			}
 
