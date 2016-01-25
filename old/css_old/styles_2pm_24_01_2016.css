@@ -1,0 +1,217 @@
+@charset"utf-8";
+
+body	{
+	padding-top:20px;
+	padding-bottom:20px; 
+	background:#836133;
+	width:786px;
+	margin:auto;
+	}
+
+
+.clearfix:after { 
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}	
+
+/*OVERALL WRAPPER*/
+
+#overall-container
+	{
+	font-family: 'open sans';
+	color:#A39E9E;
+	background:#FFFFFF;	
+	font-weight:400;
+	margin:auto;
+	text-align:center;
+	font-size:14px;
+	
+	
+	}
+
+
+
+
+/*HEADER*/
+
+.header-element 
+	{
+	margin-bottom:-70px;
+	position: relative;
+	top: 12px;
+	left: 15px;
+	right: 0;
+	}
+
+
+
+
+
+/*NAVIGATION BEHAVIOUR*/
+
+a:hover 	{
+		color: #F49F61;
+		text-decoration:underline;
+		}
+
+a:link   	{
+		color: #000000;
+		}
+
+a:visited  	{
+		color: #A39E9E;
+		} 
+
+/*NAVIGATION BEHAVIOUR*/
+
+
+.site-logo {
+	float: left;
+}
+
+/*NAVIGATION STYLE*/
+.menu-wrapper {
+	margin-top: 20px;
+	float: right;
+	text-align:right;	
+}
+
+	.menu-site-navigation {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
+		.menu-item {
+			display: inline-block;
+		}
+
+			.menu-link {
+				color: #A39E9E;
+				font-size:17px;
+				display:inline;
+				padding-right:20px;				
+			}
+
+
+/*.menu {  
+	font-size:17px;
+	color: #A39E9E;
+	margin-bottom:10px;
+	margin-top:18px;
+	margin-right:0px;
+	padding:20px;
+	text-align:right;
+}
+
+.menu-item 	{   
+	display:inline;
+	text-align:right;
+	padding-right:2px;
+}
+
+.menu-item a	{
+	display:inline;
+	padding-right:20px;
+}*/
+
+/*NAVIGATION STYLE*/
+
+
+/*DETAILS STYLE*/
+
+
+#details-wrapper
+	 		{
+			 color:#A39E9E;
+			 text-align: center;
+			 background:#CECECE;
+	 		 font-family: 'open sans';
+			 margin:auto;
+			 width:100%;
+	 		}
+
+.details
+		{
+		font-size: 16px;
+		}
+
+.quote
+				{
+				display:inline-block;
+				color:#FFFFFF;
+				padding-bottom:3px;
+					
+				}
+/*DETAILS STYLE*/
+
+/*FEATURE IMAGE*/
+
+#image-container 
+				{
+				
+				display:block;
+				
+				}
+
+.feature-image			
+				{
+				
+				margin:auto;
+				{
+/*FEATURE IMAGE*/
+
+/*TEXT MAIN WRAPPER*/
+
+#text-wrapper
+	 		{
+			 
+			 text-align: center;
+			 background:#FFFFFF;
+	 		 font-family: 'open sans';
+			 padding-left:15px;
+			 padding-right:15px;
+			 margin:auto;
+			}
+
+.heading h2
+		{
+		
+		text-align: center;
+		}
+
+.p aboutus
+				{
+				font-size:18px;
+				padding-bottom:3px;
+				}
+			
+				
+/*TEXT MAIN WRAPPER*/
+
+	
+/*FOOTER*/				
+
+
+
+footer 			
+			{
+ 		 	 min-height:100%; 
+  			 width:100%; 
+			 height:100%;
+  			 max-width:100%; 
+  		 	 margin:0 auto;
+			 text-align:center;
+			 clear:both;
+						
+			}
+			
+/*FOOTER*/
+
+
+
+
+
